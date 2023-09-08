@@ -46,8 +46,7 @@ body {
 /* 헤더 배경이미지 */
 #top {
   height: 100vh;
-  background: url(../images/graybg_2.jpg) no-repeat fixed center top 70px /
-    cover;
+  background: url(../images/graybg.jpg) no-repeat fixed center top 70px / cover;
   position: relative;
 }
 
@@ -499,7 +498,7 @@ body {
 @media (max-width: 800px) {
   #top {
     background: url(../images/graybg.jpg) no-repeat fixed center top / cover;
-    background-size: 400px 900px;
+    background-size: 100% 100%;
   }
   h2 {
     padding-bottom: 30pt;
