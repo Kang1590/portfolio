@@ -499,7 +499,7 @@ body {
 @media (max-width: 800px) {
   #top {
     background: url(../images/graybg.jpg) no-repeat fixed center top / cover;
-    background-size: 800px;
+    background-position: 0;
   }
   h2 {
     padding-bottom: 30pt;
