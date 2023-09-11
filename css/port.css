@@ -504,7 +504,7 @@ body {
 @media (max-width: 800px) {
   #top {
     background: url(../images/graybg.jpg) no-repeat fixed/ cover;
-    background-size: 400px 400px;
+    background-size: 800px 1000px;
   }
   #top > img {
     display: none;
