@@ -503,7 +503,9 @@ body {
 /* 반응형 */
 @media (max-width: 800px) {
   #top {
-    background: url(../images/graybg.jpg) no-repeat fixed top 250px / cover;
+    background: url(../images/graybg.jpg) no-repeat fixed / cover;
+    background-position-x: center;
+    background-position-y: top;
   }
   #top > img {
     display: none;
