@@ -507,6 +507,9 @@ body {
     width: 100%;
     height: 790px;
   }
+  #top > img {
+    display: none;
+  }
   h2 {
     padding-bottom: 30pt;
   }
