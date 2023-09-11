@@ -500,8 +500,6 @@ body {
   #top {
     background: url(../images/graybg.jpg) no-repeat fixed center top 250px /
       cover;
-    overflow: hidden;
-    background-size: 100% 100%;
   }
   h2 {
     padding-bottom: 30pt;
