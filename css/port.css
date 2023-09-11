@@ -498,7 +498,7 @@ body {
 /* 반응형 */
 @media (max-width: 800px) {
   #top {
-    background: url(../images/graybg.jpg) no-repeat fixed 50% 50% / cover;
+    background: url(../images/graybg.jpg) no-repeat fixed center / cover;
   }
   h2 {
     padding-bottom: 30pt;
