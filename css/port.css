@@ -54,6 +54,8 @@ body {
   width: 100%;
   height: 930px;
   opacity: 25%;
+  top: 0;
+  left: 0;
 }
 
 /* 상단메뉴 */
@@ -508,8 +510,7 @@ body {
     background-attachment: fixed;
   }
   #top > img {
-    width: 100%;
-    height: 100%;
+    height: 790px;
   }
   h2 {
     padding-bottom: 30pt;
