@@ -510,7 +510,7 @@ body {
     background-attachment: fixed;
   }
   #top > img {
-    height: 790px;
+    display: none;
   }
   h2 {
     padding-bottom: 30pt;
