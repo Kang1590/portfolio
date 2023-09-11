@@ -508,8 +508,7 @@ body {
     background-attachment: fixed;
   }
   #top > img {
-    height: 790px;
-    z-index: 1;
+    width: 100%;
   }
   h2 {
     padding-bottom: 30pt;
