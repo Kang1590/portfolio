@@ -509,6 +509,7 @@ body {
   }
   #top > img {
     height: 790px;
+    z-index: 1;
   }
   h2 {
     padding-bottom: 30pt;
