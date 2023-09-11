@@ -97,7 +97,7 @@ $(document).ready(function () {
   });
 
   //타자치는 효과
-  const $typing = "Please Enjoy\nJin Young's Portfolio.";
+  const $typing = "Please Enjoy\nJin Young's\n Portfolio.";
   const tyLen = $typing.length; //글자길이
   console.log(tyLen); //21
   let i = 0;
@@ -111,7 +111,7 @@ $(document).ready(function () {
       //자바스크립트로 줄바꿈을 한다.
       document.querySelector("#typing").innerText = txt;
       i++; //i는 21보다 작을때만 ++한다.
-      setTimeout(type, 200);
+      setTimeout(type, 100);
     }
   }
   type();
