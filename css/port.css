@@ -509,9 +509,6 @@ body {
     background-size: 800px 800px;
     background-attachment: fixed;
   }
-  #top > img {
-    display: none;
-  }
   h2 {
     padding-bottom: 30pt;
   }
