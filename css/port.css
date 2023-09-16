@@ -54,7 +54,7 @@ body {
   width: 100%;
   height: 930px;
   opacity: 25%;
-  top: 0;
+  top: 25px;
   left: 0;
 }
 
@@ -462,7 +462,7 @@ body {
 #contact h2 {
   font-size: 5rem;
   padding-bottom: 50px;
-  text-shadow: 1px 1px 10px black;
+  text-shadow: 1px 1px 5px black;
 }
 #contact a {
   color: darkorange;
