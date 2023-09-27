@@ -54,7 +54,7 @@ body {
   width: 100%;
   height: 930px;
   opacity: 25%;
-  top: 25px;
+  top: 0;
   left: 0;
 }
 
@@ -262,6 +262,7 @@ body {
 /* <section>중에서만 홀수 (1,3,5,7,...) */
 #port section:nth-of-type(odd) .left {
   margin-right: 60pt;
+  width: 250%;
 }
 /* <section>중에서만 짝수(2,4,6,8,...) */
 #port section:nth-of-type(even) .left {
@@ -462,7 +463,7 @@ body {
 #contact h2 {
   font-size: 5rem;
   padding-bottom: 50px;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 10px black;
 }
 #contact a {
   color: darkorange;
