@@ -33,7 +33,7 @@ $(document).ready(function () {
   const aboutTop = $("#about").offset().top; //836.333...
   const portTop = $("#port").offset().top - 300;
   const port2Top = $("#port2").offset().top - 300;
-  const port3Top = $("#port3").offset().top - 200;
+  // const port3Top = $("#port3").offset().top - 200;
   const eventTop = $("#event").offset().top - 200;
   const contactTop = $("#contact").offset().top - 200;
   let scrollTop = 0;
@@ -77,8 +77,8 @@ $(document).ready(function () {
       //상단 메뉴 활성화  [0,1,2,3,4]
       $("#menu a").eq(2).addClass("act").siblings().removeClass("act");
     }
-    //세번째 포폴로 이동시: (두번째 포폴로 나타나는 애니  + 메뉴 활성화)
-    if (scrollTop >= port3Top && scrollTop < eventTop) {
+    //세번째 포폴로 이동시: (세번째 포폴로 나타나는 애니  + 메뉴 활성화)
+    if (scrollTop < eventTop) {
       //포폴3 애니
       $("#port3 div").addClass("active");
       //상단 메뉴 활성화 [0,1,2,3,4]
