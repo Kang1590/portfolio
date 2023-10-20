@@ -78,12 +78,12 @@ $(document).ready(function () {
       $("#menu a").eq(2).addClass("act").siblings().removeClass("act");
     }
     //세번째 포폴로 이동시: (세번째 포폴로 나타나는 애니  + 메뉴 활성화)
-    if (scrollTop < eventTop) {
-      //포폴3 애니
-      $("#port3 div").addClass("active");
-      //상단 메뉴 활성화 [0,1,2,3,4]
-      $("#menu a").eq(2).addClass("act").siblings().removeClass("act");
-    }
+    // if (scrollTop < eventTop) {
+    //   //포폴3 애니
+    //   $("#port3 div").addClass("active");
+    //   //상단 메뉴 활성화 [0,1,2,3,4]
+    //   $("#menu a").eq(2).addClass("act").siblings().removeClass("act");
+    // }
     //이벤트디자인 이동시: (메뉴 활성화)
     if (scrollTop >= eventTop && scrollTop < contactTop) {
       //상단 메뉴 활성화 [0,1,2,3,4]
